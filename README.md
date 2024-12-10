@@ -36,5 +36,6 @@ In the following section we will describe the scenarios that we will implement i
 
 Here there is a list of examples that we would be implemented:
 
-- Given a roll of [1, 1, 1, 5, 1], when the user calculates the score, then the result is 1150 points. The explanation is 3 ones are 1000 points and the last one is 50 points and the single 1 at the end is 100 points more.
+- Given a roll of [1, 1, 1, 5, 1, 2], when the user calculates the score, then the result is 1150 points. The explanation is 3 ones are 1000 points and the last one is 50 points and the single 1 at the end is 100 points more.
+- Given a roll of [2, 3, 4, 6, 2, 2], when the user calculates the score, then the result is 0 points. The explanation is that there are no single 1 or 5 and there are no triples.
 
