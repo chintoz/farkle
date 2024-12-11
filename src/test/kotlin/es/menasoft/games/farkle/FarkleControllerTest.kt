@@ -45,16 +45,15 @@ class FarkleControllerTest {
         @JvmStatic
         fun provideNumbersAndExpectedScores(): Stream<Arguments> {
             return Stream.of(
+                Arguments.of(listOf(1, 1, 1, 5, 1, 2), 1150),
+                Arguments.of(listOf(2, 3, 4, 6, 2, 2), 0),
                 Arguments.of(listOf(1, 5, 1, 5, 1, 5), 450),
                 Arguments.of(listOf(1, 1, 1, 5, 5, 5), 1500),
-                Arguments.of(listOf(2, 3, 4, 6, 2, 2), 0),
                 Arguments.of(listOf(1, 1, 1, 5, 1, 2), 1150),
                 Arguments.of(listOf(1, 1, 5, 5, 2, 2), 300),
                 Arguments.of(listOf(6, 6, 6, 6, 5, 5), 1300),
                 Arguments.of(listOf(4, 4, 4, 4, 4, 5), 1650),
-                Arguments.of(listOf(3, 3, 3, 3, 3, 3), 2400),
-
-
+                Arguments.of(listOf(3, 3, 3, 3, 3, 3), 2400)
             )
         }
     }

@@ -37,5 +37,12 @@ In the following section we will describe the scenarios that we will implement i
 Here there is a list of examples that we would be implemented:
 
 - Given a roll of [1, 1, 1, 5, 1, 2], when the user calculates the score, then the result is 1150 points. The explanation is 3 ones are 1000 points and the last one is 50 points and the single 1 at the end is 100 points more.
-- Given a roll of [2, 3, 4, 6, 2, 2], when the user calculates the score, then the result is 0 points. The explanation is that there are no single 1 or 5 and there are no triples.
+- Given a roll of [2, 3, 4, 6, 2, 2], when the user calculates the score, then the result is 0 points. The explanation is that there are no single 1 or 5 and there are no triples or more.
+- Given a roll of [1, 5, 1, 5, 1, 5], when the user calculates the score, then the result is 450 points. The explanation, 3 independent ones are 300 points and 3 independent fives are 150 points.
+- Given a roll of [1, 1, 1, 5, 5, 5], when the user calculates the score, then the result is 1500 points. The explanation 3 ones in a row are 1000 points and 3 fives in a row are 500 points. 
+- Given a roll of [1, 1, 1, 5, 1, 2], when the user calculates the score, then the result is 1150 points. The explanation is 3 ones in a row are 1000 points, 1 independent one is 100 and 1 independent five is 50 points. 
+- Given a roll of [1, 1, 5, 5, 2, 2], when the user calculates the score, then the result is 300 points. The explanation is 2 independent ones are 200 points and 2 independent fives are 100 points.
+- Given a roll of [6, 6, 6, 6, 5, 5], when the user calculates the score, then the result is 1300 points. The explanation is 4 sixes are 1200 points, 2 fives are 100 points.
+- Given a roll of [4, 4, 4, 4, 4, 5], when the user calculates the score, then the result is 1650 points. The explanation is 5 fours are 1600 points, 1 five is 50 points.
+- Given a roll of [3, 3, 3, 3, 3, 3], when the user calculates the score, then the result is 2400 points. The explanation is 6 threes are 2400 points.
 
